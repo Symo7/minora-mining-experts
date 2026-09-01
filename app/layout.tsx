@@ -1,5 +1,18 @@
 import '@/app/globals.css';
 import React from 'react';
+import { Cormorant, Montserrat } from 'next/font/google';
+
+const cormorant = Cormorant({
+  subsets: ['latin'],
+  variable: '--font-cormorant',
+  display: 'swap',
+});
+
+const montserrat = Montserrat({
+  subsets: ['latin'],
+  variable: '--font-montserrat',
+  display: 'swap',
+});
 
 export const metadata = {
   metadataBase: new URL('https://minoraminingexperts.com'),
@@ -34,8 +47,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className="min-h-screen bg-[#080908] text-[#F4F1E8] antialiased">
+    <html lang="en" className={`${cormorant.variable} ${montserrat.variable}`}>
+      <body className="min-h-screen bg-[var(--color-minora-obsidian)] text-[var(--color-minora-ivory)] antialiased font-sans">
         {children}
       </body>
     </html>

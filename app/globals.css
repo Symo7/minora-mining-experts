@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+@theme {
+  --font-sans: var(--font-montserrat), ui-sans-serif, system-ui, sans-serif;
+  --font-serif: var(--font-cormorant), ui-serif, Georgia, serif;
+}
+
 @layer base {
   :root {
     --color-minora-obsidian: #080908;
@@ -18,6 +23,20 @@
   body {
     background-color: var(--color-minora-obsidian);
     color: var(--color-minora-ivory);
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-family: var(--font-sans);
+  }
+}
+
+@layer utilities {
+  .glass-panel {
+    @apply bg-white/5 backdrop-blur-md border border-white/10 shadow-[0_4px_30px_rgba(0,0,0,0.5)];
+  }
+  
+  .glass-card {
+    @apply bg-[#171918]/80 backdrop-blur-md border border-[#303331] shadow-xl hover:border-[#C9A45C]/50 transition-colors duration-300;
+  }
+  
+  .text-gradient-gold {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-[#C9A45C] via-[#E0C98C] to-[#C9A45C];
   }
 }
