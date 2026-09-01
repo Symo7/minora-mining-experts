@@ -1,6 +1,20 @@
 import '@/app/globals.css';
 import React from 'react';
 
+export function generateStaticParams() {
+  return [
+    { locale: 'en' },
+    { locale: 'ar' },
+    { locale: 'zh' },
+    { locale: 'fr' },
+    { locale: 'de' },
+    { locale: 'ja' },
+    { locale: 'pt' },
+    { locale: 'ru' },
+    { locale: 'es' },
+  ];
+}
+
 export const metadata = {
   metadataBase: new URL('https://minoraminingexperts.com'),
   title: 'MINORA MINING EXPERTS | African Gold. Global Confidence.',
