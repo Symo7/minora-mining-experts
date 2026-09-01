@@ -1,4 +1,4 @@
-﻿-- 014_atomic_quote_mutations.sql
+-- 014_atomic_quote_mutations.sql
 CREATE OR REPLACE FUNCTION public.update_quote_status_atomic(
   p_quote_id UUID,
   p_new_status public.quote_status_enum,

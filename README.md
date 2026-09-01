@@ -1,4 +1,4 @@
-﻿# MINORA MINING EXPERTS
+# MINORA MINING EXPERTS
 
 Premium multilingual digital platform for Minora Mining Experts.
 

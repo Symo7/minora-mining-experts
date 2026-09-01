@@ -1,4 +1,4 @@
-﻿-- 011_storage_setup.sql
+-- 011_storage_setup.sql
 -- Storage buckets declaration
 -- minora-public: for marketing assets, images, logos
 -- minora-private: for certificates, licenses, KYC, and assay reports

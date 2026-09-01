@@ -1,4 +1,4 @@
-﻿# MINORA TECHNICAL ARCHITECTURE
+# MINORA TECHNICAL ARCHITECTURE
 ## Stack & Framework
 - Next.js 15+ App Router
 - TypeScript (Strict Mode)

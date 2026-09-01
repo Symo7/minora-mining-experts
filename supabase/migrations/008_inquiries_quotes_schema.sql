@@ -1,4 +1,4 @@
-﻿-- 008_inquiries_quotes_schema.sql
+-- 008_inquiries_quotes_schema.sql
 CREATE TABLE public.quote_requests (
   id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   quote_reference VARCHAR(30) UNIQUE NOT NULL,

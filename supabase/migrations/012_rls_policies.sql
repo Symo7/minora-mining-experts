@@ -1,4 +1,4 @@
-﻿-- 012_rls_policies.sql
+-- 012_rls_policies.sql
 ALTER TABLE public.user_profiles ENABLE ROW LEVEL SECURITY;
 ALTER TABLE public.products ENABLE ROW LEVEL SECURITY;
 ALTER TABLE public.product_translations ENABLE ROW LEVEL SECURITY;

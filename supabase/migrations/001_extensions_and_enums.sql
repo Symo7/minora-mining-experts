@@ -1,4 +1,4 @@
-﻿-- 001_extensions_and_enums.sql
+-- 001_extensions_and_enums.sql
 CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
 CREATE EXTENSION IF NOT EXISTS "pgcrypto";
 

@@ -1,4 +1,4 @@
-﻿-- 002_user_profiles_and_roles.sql
+-- 002_user_profiles_and_roles.sql
 CREATE TABLE public.user_profiles (
   id UUID PRIMARY KEY REFERENCES auth.users(id) ON DELETE CASCADE,
   full_name TEXT NOT NULL,

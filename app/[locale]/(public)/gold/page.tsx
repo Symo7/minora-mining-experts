@@ -19,18 +19,18 @@ export default async function GoldPage({
     },
     {
       title: 'Natural Gold Nuggets',
-      purity: '20k – 23k Placer Origin',
+      purity: '20k â€“ 23k Placer Origin',
       weight: 'Bulk Lots (1.00 kg+)',
       origin: 'Kenya & DRC Placer Concessions',
       desc: 'Unrefined natural placer clusters for collectors, specialized smelting, and institutional buyers.',
       slug: 'gold-nuggets',
     },
     {
-      title: 'Raw Gold / Gold Dust (Doré)',
-      purity: '88% – 94% Feedstock',
+      title: 'Raw Gold / Gold Dust (DorÃ©)',
+      purity: '88% â€“ 94% Feedstock',
       weight: 'Contract Supply (10.00 kg+)',
       origin: 'Regional Artisanal & Small-Scale Mining (ASM)',
-      desc: 'Alluvial raw gold doré feedstock dedicated for refinery processing and international smelter delivery.',
+      desc: 'Alluvial raw gold dorÃ© feedstock dedicated for refinery processing and international smelter delivery.',
       slug: 'gold-dust',
     }
   ];

@@ -27,7 +27,7 @@ export default async function TrustPage({
             <div className="p-4 rounded-lg bg-[#0F1010] border border-[#303331] flex justify-between items-center">
               <div>
                 <div className="font-medium text-[#F4F1E8]">Mining & Exploration Concession License</div>
-                <div className="text-xs text-[#94948D]">Issuing Authority: Regional Mining Directorate • Ref: MIN-LIC-2026-001</div>
+                <div className="text-xs text-[#94948D]">Issuing Authority: Regional Mining Directorate â€¢ Ref: MIN-LIC-2026-001</div>
               </div>
               <span className="text-xs text-[#FBBF24] font-medium">[Pending Verification]</span>
             </div>
@@ -35,7 +35,7 @@ export default async function TrustPage({
             <div className="p-4 rounded-lg bg-[#0F1010] border border-[#303331] flex justify-between items-center">
               <div>
                 <div className="font-medium text-[#F4F1E8]">Company Registration & Certificate of Incorporation</div>
-                <div className="text-xs text-[#94948D]">Issuing Authority: Registrar of Companies • Established 12 January 2016</div>
+                <div className="text-xs text-[#94948D]">Issuing Authority: Registrar of Companies â€¢ Established 12 January 2016</div>
               </div>
               <span className="text-xs text-[#FBBF24] font-medium">[Pending Verification]</span>
             </div>
@@ -43,7 +43,7 @@ export default async function TrustPage({
             <div className="p-4 rounded-lg bg-[#0F1010] border border-[#303331] flex justify-between items-center">
               <div>
                 <div className="font-medium text-[#F4F1E8]">Commercial Gold Export Clearance & Customs Permit</div>
-                <div className="text-xs text-[#94948D]">Issuing Authority: Ministry of Mining & Trade Authority • Ref: MIN-EXP-2026-104</div>
+                <div className="text-xs text-[#94948D]">Issuing Authority: Ministry of Mining & Trade Authority â€¢ Ref: MIN-EXP-2026-104</div>
               </div>
               <span className="text-xs text-[#FBBF24] font-medium">[Pending Verification]</span>
             </div>

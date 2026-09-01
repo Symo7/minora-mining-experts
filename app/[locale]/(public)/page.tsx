@@ -108,7 +108,7 @@ export default async function HomePage({
                   </div>
                   <div className="flex justify-between">
                     <span className="text-[#94948D]">Operating Hubs</span>
-                    <span className="font-medium text-[#F4F1E8]">Kenya • Uganda • DRC</span>
+                    <span className="font-medium text-[#F4F1E8]">Kenya â€¢ Uganda â€¢ DRC</span>
                   </div>
                 </div>
               </div>

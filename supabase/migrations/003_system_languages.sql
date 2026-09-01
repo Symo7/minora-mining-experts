@@ -1,4 +1,4 @@
-﻿-- 003_system_languages.sql
+-- 003_system_languages.sql
 CREATE TABLE public.system_languages (
   code VARCHAR(10) PRIMARY KEY,
   name TEXT NOT NULL,

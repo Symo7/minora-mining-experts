@@ -1,4 +1,4 @@
-﻿-- 004_catalog_schema.sql
+-- 004_catalog_schema.sql
 CREATE TABLE public.product_categories (
   id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
   slug TEXT UNIQUE NOT NULL,
