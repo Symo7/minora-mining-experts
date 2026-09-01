@@ -1,4 +1,4 @@
-﻿{
+{
   "name": "minora-mining-experts",
   "version": "1.0.0",
   "private": true,
@@ -18,8 +18,7 @@
     "zod": "^3.24.1",
     "clsx": "^2.1.1",
     "tailwind-merge": "^3.0.1",
-    "lucide-react": "^0.470.0",
-    "framer-motion": "^12.0.0"
+    "lucide-react": "^0.470.0"
   },
   "devDependencies": {
     "typescript": "^5.7.2",
